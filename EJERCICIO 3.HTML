@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 3</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+li{
+padding:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<ul>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+</ul>
+
+<script>
+
+$(document).ready(function(){
+
+$("li").mouseover(function(){
+
+$(this).css("background-color", "yellow");
+
+});
+
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 9</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+
+<a href="https://google.com" id="link">Ir a Google</a>
+
+<script>
+
+$(document).ready(function(){
+
+$("#link").click(function(e){
+
+e.preventDefault();
+
+console.log("Redirección bloqueada");
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
